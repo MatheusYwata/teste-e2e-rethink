@@ -9,17 +9,21 @@ Este repositório contém os testes end-to-end da jornada do usuário no sistema
 ```bash
 git clone <URL_DO_REPOSITORIO>
 cd <PASTA_DO_REPOSITORIO>
+```
 
 
 1.2 Instale as dependências (Python + Robot Framework):
 
+```bash
 pip install -r requirements.txt
+```
 
 
 1.3 Rodar todos os testes de uma vez:
 
+```bash
 robot Tests
-
+```
 
 A saída inclui:
 
@@ -36,7 +40,6 @@ Observação: Todos os testes já incluem geração de evidências, logs do stat
 2. Bugs encontrados
 
 Durante a execução dos testes, foram identificados os seguintes bugs:
-
 
 
 ### BUG-001
@@ -104,10 +107,13 @@ Pass/Fail de cada etapa.
 
 Exemplo de log de bug:
 
+```bash
 🐞 BUG-002: Extrato não retornou a transação inicial de +100 pontos (saldo inconsistente)
+```
 
 5. Estrutura do repositório
 
+```bash
 /Tests
     /account
         test_delete_account.robot
@@ -120,6 +126,7 @@ Exemplo de log de bug:
     variables.robot
 requirements.txt
 README.md
+```
 
 6. Observações finais
 
